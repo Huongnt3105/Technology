@@ -125,6 +125,6 @@ Hypervisor thường được chia thành 2 kiểu:
 | So sánh                   | Bare-metal hypervisor                                 | Hosted hypervisor                                                                                           
 |---------------------------|-------------------------------------------------------|--------------------------------------------------------------------|
 | Virtualization type     | Hardware virtualization                               | Software virtualization                  
-| Hypervisor Purpose      | Được sử dụng trên các server có mục đích duy nhất    | Sử dụng trên server cung cấp một loạt các phần mềm ứng dụng khác<br>Không thể sử dụng 100% tài nguyên phần cứng cho các VM| 
+| Hypervisor Purpose      | Được sử dụng trên các server có mục đích duy nhất    | - Sử dụng trên server cung cấp một loạt các phần mềm ứng dụng khác<br>- Không thể sử dụng 100% tài nguyên phần cứng cho các VM| 
 | Ưu điểm                 | - Hiệu năng tốt hơn, khả năng mở rộng và ổn định<br>- Không phụ thuộc vào OS của server<br>- Khi 1 VM/guest OS có vấn đề không gây ảnh hưởng đến các VM khác trên cùng server| Tương thích tốt hơn với phần cứng server|- Không phụ thuộc vào OS của server|                                      
 | Nhược điểm              | Các phần cứng hỗ trợ bị giới hạn| - Tăng overhead gây ảnh hưởng đến hiệu năng<br>- Các hoạt động của hypervisor hoàn toàn phụ thuộc vào OS server<br>- Khi base OS có vấn đề sẽ gây ảnh hướng toàn hệ thống| 
