@@ -121,6 +121,7 @@ Hypervisor thường được chia thành 2 kiểu:
 * VD: VMWare ESXi, Hyper-V, Xen, KVM-Qemu
 2. Hosted based: được cài đặt và hoạt động như một phần mềm thông thường đặt trên hệ điều hành của server, việc truy nhập tới tài nguyên phần cứng cần đi qua lớp OS của server 
 * VD: Qemu, VMWare workstation...
+## So sánh 
 | So sánh                   | Bare-metal hypervisor                                 | Hosted hypervisor                                                                                           
 |---------------------------|-------------------------------------------------------|--------------------------------------------------------------------|
 | Virtualization type     | Hardware virtualization                               | Software virtualization                  
